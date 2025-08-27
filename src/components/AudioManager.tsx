@@ -5,7 +5,7 @@ import { UrlInput } from "./modal/UrlInput";
 import AudioPlayer from "./AudioPlayer";
 import { TranscribeButton } from "./TranscribeButton";
 import Constants from "../utils/Constants";
-import { Transcriber } from "../hooks/useTranscriber";
+import type { Transcriber } from "../hooks/useTranscriber";
 import Progress from "./Progress";
 import AudioRecorder from "./AudioRecorder";
 

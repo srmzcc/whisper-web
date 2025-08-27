@@ -2,7 +2,7 @@ import { AudioManager } from "./components/AudioManager";
 import Transcript from "./components/Transcript";
 import { useTranscriber } from "./hooks/useTranscriber";
 
-function App() {
+export function App() {
     const transcriber = useTranscriber();
 
     return (
@@ -30,5 +30,3 @@ function App() {
         </div>
     );
 }
-
-export default App;
